@@ -8,7 +8,7 @@ pipeline {
                 doGenerateSubmoduleConfigurations: false,
                 extensions: [],
                 submoduleCfg: [],
-                userRemoteConfigs: [[url: 'https://github.com/priximmo/jenkins-helloworld.git']]])
+                userRemoteConfigs: [[url: 'https://github.com/mbenhassen/mesprojets.git']]])
                 sh "ls"
             }
         }
